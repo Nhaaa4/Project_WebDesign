@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read more</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Khmer&family=Moul&family=Sen:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/formore.css">
+    <link rel="stylesheet" href="../CSS/header-footer.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo"><img src="../Image/COPPSROV.png" alt=""></div>
+        <nav id="nav-menu">
+            <a href="home.html">Home</a>
+            <a href="shop.html"><span>Shop</span></a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="partner.html">Partner</a>
+        </nav>
+        <div class="profile-cart">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <div class="menu" id="menu"><i class="fa-solid fa-bars"></i></div>
+            <img src="../Image/profile.jpg" alt="Profile" id="profileClick">
+        </div>
+    </div>
+    <!-- Profile -->
+    <div class="mainContainerProfile" id="profile">
+        <div class="containerProfile">
+            <div class="studio"></div>   
+            <div class="profilePic">
+                <img src="../Image/profile.jpg" alt="profilePic">
+                <h1>Panha Sovan</h1>
+                <p>Phnom Penh, Cambodia</p>
+            </div>
+            <div class="whiteSpace">
+                <button>Edit Profile</button>
+                <button>Settings</button>
+            </div>
+        </div>
+    </div>
+    <!-- container -->
+    <div class="mainContainer">
+        <div class="shopContainer-slide">
+        </div>
+        <div class="title">
+            <div class="title-group">
+                <h1>Rice</h1>
+                <h4>Pka Kh'nhey Rice / Battambang-Cambodia</h4>
+            </div>
+            <div class="add">
+                <div class="weigth">
+                    <input type="text" name="quantity" min="0">
+                    <select name="weigth" id="">
+                        <option value="kg">kg</option>
+                        <option value="kg">T</option>
+                    </select>
+                </div>
+                <button class="add-to-card" onclick="addToCart()">Add to Card</button>
+            </div>
+        </div>
+        <div class="information-product">
+            <img src="../Image/jrot-srov.jpg" alt="">
+            <div class="text">
+                <h3>Our Company</h3>
+                <p><span>Battambang Rice Investment Co. Ltd “BRICo”</span> a license investment company no. 1613/12CIB date 20th July 2012 & no. 4598MOC/D/REG by the Council for the Development of Cambodia and Ministry of Commence, is a joint venture company established by a group of diverse investor group including local investors with strong operational experience, extensive local and international contacts.
+                BRICo has been built upon a number of core guiding principles and shareholders are committed to become one of the nation’s leading rice millers and wholesalers focusing on rice business. The business covers an extensive scale of activities ranging from milling, processing, packaging to distribution of various rice and rice products.</p>
+                <h3></h3>
+            </div>
+        </div>
+    </div>
+
+
+<footer>
+    <div class="footer">
+        <div class="location">
+            <img src="../Image/COPPSROV-WHITE.png" alt="">
+            <p>#National Road 6, <br>
+                Preak Leab, Phnom Penh, <br>
+                Cambodia</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=61567582710788"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/coppsary/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@coppsary"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.linkedin.com/in/sovanpanha-chheang-17473b32a/?originalSubdomain=kh"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="explore">
+            <p>Explore</p>
+            <div class="exploreinfo">
+                <p>Home</p>
+                <p>Features</p>
+                <p>Pricing</p>
+                <p>FAQs</p>
+                <p>About</p>
+            </div>
+        </div>
+        <div class="knowmore">
+            <p>Know More</p>
+            <div class="knowmoreinfo">
+                <p>Home</p>
+                <p>Features</p>
+                <p>Pricing</p>
+                <p>FAQs</p>
+                <p>About</p>
+            </div>
+        </div>
+        <div class="about">
+            <p>About</p>
+            <div class="aboutinfo">
+                <p>Home</p>
+                <p>Features</p>
+                <p>Pricing</p>
+                <p>FAQs</p>
+                <p>About</p>
+            </div>
+        </div>
+    </div>
+    <hr/>
+    <p class="under">© 2024 COPPSROV BY COPPSARY</p>
+</footer>
+<script src="../JS/profile.js"></script>    
+</body>
+</html>

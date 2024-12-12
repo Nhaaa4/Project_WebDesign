@@ -1,0 +1,302 @@
+body {
+    background-color: #FEFEE3;
+    overflow-x: hidden;
+}
+
+.about-us {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 6.5rem;
+    gap: 30px;
+}
+
+.about-us img {
+    width: 400px;
+    border-radius: 9%;
+}
+
+.group-para {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+
+.group-para h1 {
+    font-weight: 500;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    line-height: 5rem;
+}
+
+.group-para h1 span {
+    font-weight: 700;
+}
+
+.group-para p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.group-para button {
+    padding: 10px 40px;
+    font-size: 1.2rem;
+    background-color: #568757;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-left: auto;
+}
+
+.group-para button:hover{
+    background-color: #44915f;
+    transform: scale(1.05);
+}
+
+.group-para button a {
+    color: #FEFEE3;
+}
+
+.our-founder {
+    height: 90vh;
+    padding: 5rem;
+}
+
+.our-founder h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.group-founder {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10rem 0;
+}
+
+.icons a i:hover{
+    color: #568757;
+    transform: scale(1.03);
+}
+
+.founder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 3rem;
+    border: 3px solid #568757;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+
+.founder:nth-child(2) {
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.founder img {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #568757;
+}
+
+.founder .icons i {
+    color: #000;
+}
+
+.founder h4 {
+    font-size: 1.2rem;
+}
+
+.founder button {
+    margin: 2rem 0 1rem 0;
+    padding: 0.8rem 1.7rem;
+    background-color: #568757;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.founder button a {
+    color: #fff;
+}
+
+.founder button:hover{
+    background-color: #44915f;
+    transform: scale(1.05);
+}
+
+.founder-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 4rem;
+    margin: 0 4rem;
+    gap: 2rem;
+    height: 100vh;
+}
+
+.founder-info img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.detail-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 0 4rem 1rem 4rem;
+}
+
+#panha {
+    flex-direction: row-reverse;
+}
+
+.group-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+.group-info h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.group-info h4 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.group-info p {
+    margin-right: 3rem;
+}
+
+@media (max-width: 1250px) {
+    .about-us {
+        margin: 0 4rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .about-us {
+        margin: 3rem;
+    }
+    .group-para h1 {
+        font-size: 2.5rem;
+        line-height: 3.4rem;
+    }
+
+    .group-para p {
+        font-size: 1rem;
+    }
+
+    .our-founder {
+        margin-bottom: 0;
+        padding: 5rem 0;
+    }
+
+    .founder-info {
+        margin: 0;
+        padding: 5rem 2rem;
+    }
+
+    .about-us,
+    .our-founder,
+    .founder-info {
+        height: auto;
+    }
+} 
+
+@media (max-width: 900px) {
+    .about-us {
+        flex-direction: column;
+        margin: 4rem;
+        margin-top: 2rem;
+        height: auto;
+    }
+
+    .about-us img {
+        width: 300px;
+    }
+
+    .group-para {
+        margin-left: 0;
+    }
+
+    .group-para h1 {
+        font-size: 2.5rem;
+    }
+
+    .our-founder,
+    .founder-info {
+        height: auto;
+    }
+
+    .group-founder {
+        margin-bottom: 0;
+    }
+
+    .our-founder {
+        margin-bottom: 0;
+        padding: 3rem 0;
+    }
+
+    .founder-info {
+        padding: 5rem 1rem;
+    }
+}
+
+@media (max-width: 840px) {
+    .detail-info {
+        margin: 0 2rem 1rem 2rem;
+    }
+}
+
+@media (max-width: 780px) {
+    html {
+        font-size: 90%;
+    }
+
+    .group-founder {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 5rem;
+    }
+
+    .founder:nth-child(2) {
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+    .group-info h2 {
+        line-height: 2.7rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .group-para h1 {
+        line-height: 3.3rem;
+    }
+
+    .detail-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .group-info p {
+        margin-right: 0;
+    }
+
+    #panha {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-us img {
+        width: 250px;
+    }
+}
