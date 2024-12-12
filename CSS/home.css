@@ -85,7 +85,12 @@ button:hover a{
 }
 
 .section img {
-  width: 90%;
+  border-radius: 0.5em 0.5em 0 0;
+  width: 500px;
+  height: 100%;
+  margin-bottom: 1em;
+  object-fit: cover;
+  object-position: 0 0;
 }
 
 @media screen and (max-width: 1300px) {
@@ -126,7 +131,7 @@ button:hover a{
   }
 
   .section img {
-    width: 55%;
+    width: 400px;
   }
 }
 
