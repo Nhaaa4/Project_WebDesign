@@ -59,6 +59,11 @@ nav a:hover {
   font-weight: 600;
 }
 
+nav a:hover,
+.profile-cart a i:hover {
+  color: #568757;
+}
+
 nav a span {
   text-decoration: underline;
   text-underline-offset: 6px;
