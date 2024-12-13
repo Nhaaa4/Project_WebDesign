@@ -58,7 +58,6 @@ body {
 }
 
 .our-founder {
-    height: 90vh;
     padding: 5rem;
 }
 
@@ -133,7 +132,6 @@ body {
     padding: 10rem 4rem;
     margin: 0 4rem;
     gap: 2rem;
-    height: 100vh;
 }
 
 .founder-info img {
