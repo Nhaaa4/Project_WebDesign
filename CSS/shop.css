@@ -98,7 +98,14 @@ nav .Account {
   border: none;
   border-radius: 1em;
   color: #ffffff;
+  transition: 0.3s ease;
 }
+
+.shopContainer-slide button:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
 .menu-list {
   margin-top: 1em;
 }
@@ -112,6 +119,11 @@ nav .Account {
   padding: 0.2em 1em 0.2em 1em;
   background-color: #d3d3d3;
   border-radius: 1em;
+  transition: 0.3s ease;
+}
+.menu-list ul li:hover{
+  opacity: 60%;
+  transform: scale(1.05);
 }
 .menu-list ul li a {
   color: black;
@@ -171,6 +183,12 @@ nav .Account {
   border-radius: 0.5em;
   border: solid 1px;
   box-shadow: 0 0 0.2em black;
+  transition: 0.3s ease;
+}
+
+.product-box:hover {
+  cursor: pointer;
+  transform: scale(1.01);
 }
 
 .product-image img {
