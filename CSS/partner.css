@@ -76,7 +76,24 @@ span{
     text-align: end;
     font-size: small;
     cursor: pointer;
+    transition: 0.3s ease;
 }
+
+.view:hover {
+    transform: scale(1.05);
+    color: #ba8521;
+}
+
+.view a {
+    color: orange;
+    transition: 0.3s ease;
+}
+
+.view a:hover {
+    transform: scale(1.05);
+    color: #ba8521;
+}
+
 .Description{
     display: flex;
     flex-direction: column;
