@@ -95,11 +95,15 @@ button{
     color: white;
     width: 100px;
     height: 40px;
-    border: solid 1px #527D53;
-    background-color: #527D53;
+    border: solid 1px #568757;
+    background-color: #568757;
     border-radius: 6px;
     align-self: center;
     transition: background-color 0.3s, transform 0.3s;
+}
+
+.Description button a {
+    color: #fff;
 }
 
 .card:hover{

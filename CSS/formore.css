@@ -100,6 +100,12 @@ body {
   border: solid 2px #568757;
   background-color: #568757;
 }
+.add-to-cart {
+  transition: 0.3s ease;
+}
+.add-to-cart:hover {
+  transform: scale(1.05);
+}
 .information-product {
   padding: 1em;
   display: flex;
